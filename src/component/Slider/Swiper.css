@@ -1,0 +1,19 @@
+.slider-item  {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.slider-item  img{
+    width: 100%;
+  }
+.overlay {
+  position: absolute;
+  transition: 0.3s ease;
+}
+
+.slider-item:hover .overlay {
+  opacity: 1;
+}
+.s1{
+    margin: 40px;
+}

@@ -1,0 +1,32 @@
+.container{
+    width: 1400px;
+    margin: 0 auto;
+}
+.col-100{
+    display: flex;
+}
+.col-20{
+    width: 18%;
+    height: 400px;
+}
+.h3 h3{
+    margin: 10px 0;
+    font-family: sans-serif;
+    color: rgb(28, 28, 28);
+    font-size: 16px;
+}
+.p a{
+    text-decoration: none;
+}
+.p a p{
+    margin: 14px 0;
+    font-family: sans-serif;
+    color: rgb(28, 28, 28);
+    font-size: 15px;
+}
+#About{
+    margin: 10px 0;
+    font-family: sans-serif;
+    color: rgb(26, 187, 199);
+    font-size: 16px;
+}

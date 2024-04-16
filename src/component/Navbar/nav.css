@@ -1,0 +1,81 @@
+/* navbar */
+.header-fixed{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    animation: header 2s;
+    background-color: aliceblue;
+}
+.nav{
+    display: flex;
+   margin-top: 30px;
+}
+.logo img{
+    width: 150px;
+    margin: 10px;
+}
+.search i{
+    margin-left: 100px;
+    color: rgb(181, 180, 176);
+}
+.search input{
+    width: 800px;
+    border: none;
+    margin-left: 10px;
+    height: 40px;
+}
+.search button{
+    height: 40px;
+    border: none;
+    background:linear-gradient(rgb(211, 88, 88),rgb(186, 114, 20));
+    padding: 10px 20px;
+    margin-right: 40px;
+}
+.icon i{
+    color: rgb(28, 45, 45);
+    font-size: 20px;
+    padding: 10px 20px;
+}
+.sign button{
+    border: none;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.nav-2{
+    display: flex;
+    background-color: rgb(5, 171, 171);
+}
+.logo-2{
+    margin-left: 100px;
+}
+.logo-2 img{
+    width: 90px;
+    margin-left: 100px;
+}
+.navbar ul li{
+    display: inline-block;
+    padding-top: 10px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 15px;
+    margin: 10px;
+    color: aliceblue;
+}
+.navbar-2{
+    margin-left: 100px;
+    padding-left: 50px;
+}
+.navbar-2 ul li{
+    display: inline-block;
+    padding-top: 10px;
+}
+.navbar-2 ul li a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 13px;
+    margin: 20px;
+    color: rgb(152, 149, 149);
+}
